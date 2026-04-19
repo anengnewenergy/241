@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANENG NEW ENERGY - Gabon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, sans-serif; }
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), 
+                        url('house-solar.jpg') center/cover no-repeat; 
+            height: 100vh;
+        }
+        .contact-btn { transition: all 0.3s; }
+        .contact-btn:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- 顶部导航 -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <img src="logo.jpg" alt="ANENG Logo" class="h-12">
+            <div>
+                <h1 class="text-2xl font-bold text-blue-600">ANENG</h1>
+                <p class="text-xs text-gray-500 -mt-1">NEW ENERGY</p>
+            </div>
+        </div>
+        <nav class="hidden md:flex gap-8 text-lg">
+            <a href="#accueil" class="hover:text-blue-600">Accueil</a>
+            <a href="#apropos" class="hover:text-blue-600">À propos</a>
+            <a href="#solutions" class="hover:text-blue-600">Solutions</a>
+            <a href="#vehicules" class="hover:text-blue-600">Véhicules</a>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero 大背景图 -->
+<section id="accueil" class="hero flex items-center text-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-5xl md:text-6xl font-bold mb-6">Énergie Solaire & Mobilité Électrique au Gabon</h2>
+        <p class="text-3xl mb-8 font-semibold">ANENG NEW ENERGY COMPANY EN AFRIQUE</p>
+        <a href="https://wa.me/24104568989?text=Bonjour%20ANENG%20NEW%20ENERGY%2C%20je%20souhaite%20avoir%20plus%20d%27informations%20sur%20vos%20solutions%20solaires%20et%20v%C3%A9hicules%20%C3%A9lectriques." target="_blank" 
+           class="inline-block bg-green-600 hover:bg-green-700 text-white text-xl px-10 py-4 rounded-lg font-semibold contact-btn flex items-center justify-center gap-3 mx-auto">
+            <img src="whatsapp-icon.png" alt="WhatsApp" class="w-7 h-7">
+            Nous contacter sur WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- 公司简介 -->
+<section id="apropos" class="py-20 bg-white border-b-4 border-blue-600">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">Qui sommes-nous ?</h2>
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xl leading-relaxed text-gray-700">
+                <strong>ANENG NEW ENERGY COMPANY EN AFRIQUE</strong> est une entreprise enregistrée au Gabon, spécialisée dans les solutions d'énergie solaire photovoltaïque et la vente de véhicules électriques.
+            </p>
+            <p class="text-xl leading-relaxed text-gray-700 mt-6">
+                Nous proposons des systèmes solaires complets (production, stockage et recharge) ainsi que des véhicules électriques et hybrides rechargeables de haute qualité.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Solutions Solaires -->
+<section id="solutions" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-4">Nos Solutions Solaires</h2>
+        <p class="text-center text-xl text-gray-600 mb-12">Photovoltaïque • Stockage • Éclairage solaire</p>
+
+        <div class="grid md:grid-cols-2 gap-10">
+            <div>
+                <img src="solar-system.jpg" alt="Système solaire" class="w-full rounded-xl shadow-lg">
+                <h3 class="text-2xl font-semibold mt-6">Systèmes photovoltaïques résidentiels et commerciaux</h3>
+                <p class="mt-3 text-lg">Panneaux solaires + onduleur + batterie de stockage.</p>
+            </div>
+            <div>
+                <img src="house-solar.jpg" alt="Maison solaire" class="w-full rounded-xl shadow-lg">
+                <h3 class="text-2xl font-semibold mt-6">Système photovoltaïque-intégré + stockage + recharge</h3>
+                <p class="mt-3 text-lg">Solution tout-en-un pour maison et véhicule électrique.</p>
+            </div>
+            <div>
+                <img src="solar-street.jpg" alt="Lampadaires solaires" class="w-full rounded-xl shadow-lg">
+                <h3 class="text-2xl font-semibold mt-6">Lampadaires solaires tout-en-un</h3>
+                <p class="mt-3 text-lg">Route (6m) • Jardin (3.5m) • Avec caméra de surveillance.</p>
+            </div>
+            <div>
+                <img src="business-solar.jpg" alt="Stockage industriel" class="w-full rounded-xl shadow-lg">
+                <h3 class="text-2xl font-semibold mt-6">Stockage d'énergie industriel et commercial</h3>
+                <p class="mt-3 text-lg">Économisez massivement sur vos factures d'électricité.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Véhicules Électriques -->
+<section id="vehicules" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12">Nos Véhicules Électriques</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl overflow-hidden shadow">
+                <img src="ev-suv.jpg" alt="LEAPMOTOR EREV" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">LEAPMOTOR EREV (增程式)</h3>
+                    <p class="text-green-600 font-semibold mt-2">Jusqu'à 1000 km d'autonomie</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden shadow">
+                <img src="leapmotor.jpg" alt="LEAPMOTOR Pure" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">LEAPMOTOR 100% Électrique</h3>
+                    <p class="text-green-600 font-semibold mt-2">530 km d'autonomie</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl overflow-hidden shadow">
+                <img src="honda-ev.jpg" alt="Honda EV" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">Honda 100% Électrique</h3>
+                    <p class="text-green-600 font-semibold mt-2">530 km d'autonomie</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 联系方式 -->
+<section id="contact" class="py-20 bg-blue-700 text-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-10">Contactez ANENG NEW ENERGY</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white/10 backdrop-blur p-8 rounded-2xl">
+                <i class="fa fa-phone text-4xl mb-4"></i>
+                <p class="text-2xl font-semibold">+241 74 56 89 89</p>
+                <p class="text-sm mt-1">Téléphone principal</p>
+            </div>
+            
+            <div class="bg-white/10 backdrop-blur p-8 rounded-2xl">
+                <img src="whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12 mx-auto mb-4">
+                <p class="text-2xl font-semibold">+241 04 56 89 89</p>
+                <p class="text-sm mt-1">WhatsApp (réponse rapide)</p>
+                <a href="https://wa.me/24104568989?text=Bonjour%20ANENG%20NEW%20ENERGY%2C%20je%20souhaite%20avoir%20plus%20d%27informations%20sur%20vos%20solutions%20solaires%20et%20v%C3%A9hicules%20%C3%A9lectriques." target="_blank" 
+                   class="mt-6 inline-block bg-green-500 hover:bg-green-600 px-8 py-3 rounded-lg font-semibold">
+                    Envoyer message WhatsApp
+                </a>
+            </div>
+            
+            <div class="bg-white/10 backdrop-blur p-8 rounded-2xl">
+                <i class="fa fa-map-marker text-4xl mb-4"></i>
+                <p class="text-xl font-semibold">OWENDO-PORT<br>LBV, GABON</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-gray-900 text-white py-10 text-center">
+    <div class="max-w-7xl mx-auto px-6">
+        <p class="text-xl font-semibold">ANENG NEW ENERGY COMPANY EN AFRIQUE</p>
+        <p class="mt-2">OWENDO-PORT • LIBREVILLE • GABON</p>
+        <p class="mt-6">
+            📞 +241 74 56 89 89 &nbsp;&nbsp; | &nbsp;&nbsp; 
+            💬 WhatsApp : +241 04 56 89 89
+        </p>
+        <p class="text-sm mt-8 opacity-70">© 2026 ANENG NEW ENERGY - Tous droits réservés</p>
+    </div>
+</footer>
+
+</body>
+</html>
